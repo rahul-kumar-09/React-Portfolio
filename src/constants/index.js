@@ -45,6 +45,7 @@ export const PROJECTS = [
     description:
       "The Quiz App is an interactive web application designed to test your knowledge on various topics. Built with HTML, CSS, and JavaScript, the app offers multiple-choice questions, instant feedback, and real-time score tracking. Enjoy a user-friendly and responsive design, making it easy to navigate and fun to use on any device. Start the quiz, answer questions, and see your score improve with each attempt!",
     technologies: ["HTML", "CSS", "JavaScript"],
+    projectLink: "https://github.com/rahul-kumar-09/Quiz-App-js",
   },
   {
     title: "Todo App",
@@ -52,6 +53,7 @@ export const PROJECTS = [
     description:
       "This To-Do app is built using HTML, CSS, and JavaScript. It provides a simple and intuitive interface for managing daily tasks. Users can add new tasks, mark them as completed, and remove them when they are done. The app ensures a seamless user experience with its clean design and interactive features.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    projectLink: "https://github.com/rahul-kumar-09/To-do-list",
   },
   {
     title: "Portfolio Website",
@@ -59,6 +61,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    projectLink: "https://react-portfolio-beta-three.vercel.app/",
   },
   {
     title: "News App",
@@ -66,6 +69,7 @@ export const PROJECTS = [
     description:
       "The News App is a dynamic and responsive web application built using React.js and CSS. It provides users with up-to-date news articles from various sources, presenting the latest headlines in a clean and user-friendly interface. Leveraging the power of React.js for efficient rendering and state management, combined with CSS for an attractive layout and design, the app ensures a seamless and engaging user experience.",
     technologies: ["React.js", "Rest API", "CSS"],
+    projectLink: "https://github.com/rahul-kumar-09/News-Website",
   },
 ];
 

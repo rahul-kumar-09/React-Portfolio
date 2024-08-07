@@ -26,21 +26,21 @@ const Contact = () => {
       >
         <div className="mb-8 border-solid border-slate-100">
           <input
-            className="w-2/4 p-4 text-black rounded-lg"
+            className="w-3/4 p-4 text-black rounded-lg"
             type="text"
             placeholder="Name"
           />
         </div>
         <div className="mb-8">
           <input
-            className="w-2/4 p-4 text-black rounded-lg"
+            className="w-3/4 p-4 text-black rounded-lg"
             type="text"
             placeholder="Email"
           />
         </div>
         <div className="mb-8">
           <textarea
-            className="w-2/4 p-4 text-black rounded-lg"
+            className="w-3/4 p-4 text-black rounded-lg"
             type="message"
             rows={8}
             cols={5}

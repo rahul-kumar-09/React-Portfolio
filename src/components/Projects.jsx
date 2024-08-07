@@ -21,12 +21,13 @@ const Projects = () => {
       <h1 className="my-20 text-center text-4xl">Projects</h1>
 
       {PROJECTS.map((projects, index) => (
+        <a href={projects.projectLink} target="_blank">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1.5 }}
           key={index}
-          className="mb-8 flex flex-wrap lg:justify-center"
+          className="mb-8 flex flex-wrap lg:justify-center  hover:bg-sky-700 hover:rounded-lg p-5" 
         >
           <div className="w-full lg:w-1/4">
             <img
@@ -42,14 +43,15 @@ const Projects = () => {
             <p className="mb-4 text-neutral-400">{projects.description}</p>
             {projects.technologies.map((tech, index) => (
               <span
-                key={index}
-                className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+              key={index}
+              className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
               >
                 {tech}
               </span>
             ))}
           </div>
         </motion.div>
+            </a>
       ))}
     </div>
   );
