@@ -48,12 +48,12 @@ export const PROJECTS = [
     projectLink: "https://github.com/rahul-kumar-09/Quiz-App-js",
   },
   {
-    title: "Todo App",
+    title: "Grocery Store",
     image: project2,
     description:
-      "This To-Do app is built using HTML, CSS, and JavaScript. It provides a simple and intuitive interface for managing daily tasks. Users can add new tasks, mark them as completed, and remove them when they are done. The app ensures a seamless user experience with its clean design and interactive features.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    projectLink: "https://github.com/rahul-kumar-09/To-do-list",
+      "Welcome to our Grocery Store, where convenience meets quality. We offer a wide range of fresh produce, pantry staples, and household essentials, all at competitive prices. Whether you're looking to stock up on everyday items or find specialty products, our user-friendly platform makes shopping quick and easy. Enjoy fast delivery, secure payment options, and exceptional customer service as you browse through our extensive selection of groceries tailored to meet your needs.",
+    technologies: ["React.js", "CSS", "tailwindcss.com", "framer motion"],
+    projectLink: "https://grocery-website-mu.vercel.app/",
   },
   {
     title: "Portfolio Website",
