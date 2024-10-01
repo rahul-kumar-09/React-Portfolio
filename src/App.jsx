@@ -1,15 +1,24 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { FaLinkedin } from "react-icons/fa6";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
-import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
+  const home = useRef();
+  const about = useRef();
+  const technologie = useRef();
+  const project = useRef();
+  const contact = useRef();
+
+  const scrollHandler = (eleRef) => {
+    // console.log(eleRef);
+    window.scrollTo({ top: eleRef.current.offsetTop, behavior: "smooth" });
+  };
+
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <div className="fixed top-0 -z-10 h-full w-full">
@@ -17,12 +26,19 @@ function App() {
       </div>
 
       <div className="container mx-auto px-8">
-        <Navbar />
-        <Hero />
-        <About />
-        <Technologies />
-        <Projects />
-        <Contact />
+        <Navbar
+          scrollHandler={scrollHandler}
+          home={home}
+          about={about}
+          technologie={technologie}
+          project={project}
+          contact={contact}
+        />
+        <Hero home={home} />
+        <About about={about} />
+        <Technologies technologie={technologie} />
+        <Projects project={project} />
+        <Contact contact={contact} />
       </div>
     </div>
   );
