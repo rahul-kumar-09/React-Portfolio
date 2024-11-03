@@ -12,7 +12,7 @@ const Navbar = ({
   project,
 }) => {
   return (
-    <div className="mb-24 drop">
+    <div className="mb-24 drop mynav">
       <nav className="mb-20 flex backdrop-blur bg-[#161620] items-center justify-between fixed w-full overflow-hidden top-0 left-0">
         <div className="flex flex-shrink-0 items-center">
           <h1
