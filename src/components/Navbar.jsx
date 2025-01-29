@@ -141,6 +141,25 @@ const Navbar = ({
         >
           Contact us
         </li>
+        <li className="block text-sm py-2 px-4 rounded-md">
+          <div className=" items-center justify-start gap-4 text-2xl flex space-x-6">
+            <a
+              href="https://www.linkedin.com/in/rahul-kumar-maury-479270270/"
+              target="_blank"
+            >
+              {" "}
+              <FaLinkedin />
+            </a>
+            <a href="https://www.instagram.com/rahul.code9/" target="_blank">
+              {" "}
+              <BsInstagram />
+            </a>
+            <a href="https://github.com/rahul-kumar-09" target="_blank">
+              <FaGithub />
+            </a>
+            {/* <FaTwitter /> */}
+          </div>
+        </li>
       </ul>
     </div>
   );
