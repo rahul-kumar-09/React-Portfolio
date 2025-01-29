@@ -27,7 +27,7 @@ const Projects = ({ project }) => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1.5 }}
-              className="mb-8 flex flex-wrap lg:justify-center  hover:bg-sky-700 hover:rounded-lg p-5"
+              className="mb-8 flex flex-wrap lg:justify-center   hover:rounded-lg p-5"
             >
               <div className="w-full lg:w-1/4">
                 <img

@@ -5,7 +5,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
-import { FaJava } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa6";
 import { TiVendorAndroid } from "react-icons/ti";
 import { animate, motion } from "framer-motion";
 import { RiNextjsFill } from "react-icons/ri";
@@ -104,7 +104,7 @@ const Technologies = ({ technologie }) => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
           >
-            <FaJava className="text-7xl text-sky-500" />
+            <FaLaravel className="text-7xl text-red-500" />
           </motion.div>
         </a>
 

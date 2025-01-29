@@ -1,7 +1,8 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import rahul from "../assets/rahul.png";
+// import rahul from "../assets/rahul.png";
 import { motion } from "framer-motion";
+import rahul from "../assets/rahulimg2.jpg";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -45,14 +46,14 @@ const Hero = ({ home }) => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center w-sm rounded-2xl overflow-auto">
+          <div className="flex justify-center lg:items-center h-full w-sm rounded-2xl">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={rahul}
               alt="Profile"
-              className="min-w-sm"
+              className="rounded-2xl lg:w-[500px]"
             />
           </div>
         </div>
