@@ -19,8 +19,7 @@ const Navbar = ({
             className="mx-2 w-15 text-4xl cursor-pointer"
             onClick={() => scrollHandler(home)}
           >
-            {" "}
-            RKM{" "}
+            RKM
           </h1>
         </div>
         <ul className="flex gap-5 mynav items-center ">
