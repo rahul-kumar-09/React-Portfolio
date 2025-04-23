@@ -37,7 +37,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "This project is a URL Shortener web application built using Node.js, Express.js, and MongoDB. It allows users to convert long URLs into short, easily shareable links, and redirect back to the original URL when accessed. Think of it like your own version of Bitly or TinyURL!",
-    technologies: ["React.js", "Rest API", "CSS"],
+    technologies: ["Node", "Express", "Mongodb"],
     projectLink: "https://github.com/rahul-kumar-09/URL_Shortener",
   },
 ];
