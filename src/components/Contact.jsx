@@ -59,7 +59,7 @@ const Contact = ({ contact }) => {
         >
           <div className="mb-8 border-solid border-slate-100">
             <input
-              className="w-3/4 p-4 text-black rounded-lg"
+              className="lg:w-3/4 w-full p-4 text-black rounded-lg"
               type="text"
               name="name"
               placeholder="Name"
@@ -68,7 +68,7 @@ const Contact = ({ contact }) => {
           </div>
           <div className="mb-8">
             <input
-              className="w-3/4 p-4 text-black rounded-lg"
+              className="lg:w-3/4 w-full p-4 text-black rounded-lg"
               type="email"
               name="email"
               placeholder="Email"
@@ -77,7 +77,7 @@ const Contact = ({ contact }) => {
           </div>
           <div className="mb-8">
             <textarea
-              className="w-3/4 p-4 text-black rounded-lg"
+              className="lg:w-3/4 w-full p-4 text-black rounded-lg"
               type="message"
               rows={8}
               cols={5}

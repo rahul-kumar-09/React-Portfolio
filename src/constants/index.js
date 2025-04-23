@@ -9,12 +9,12 @@ export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer wi
 
 export const PROJECTS = [
   {
-    title: "Quiz App",
+    title: "Shopping website",
     image: project1,
     description:
-      "The Quiz App is an interactive web application designed to test your knowledge on various topics. Built with HTML, CSS, and JavaScript, the app offers multiple-choice questions, instant feedback, and real-time score tracking. Enjoy a user-friendly and responsive design, making it easy to navigate and fun to use on any device. Start the quiz, answer questions, and see your score improve with each attempt!",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    projectLink: "https://github.com/rahul-kumar-09/Quiz-App-js",
+      "We make shopping simple, secure, and stylish. Our goal? To bring you a seamless shopping experience with features you’ll actually love—from a smooth add-to-cart system to a secure and easy login for managing your orders.",
+    technologies: ["HTML", "CSS", "React"],
+    projectLink: "https://shopping-website-one-flax.vercel.app/",
   },
   {
     title: "Grocery Store",
@@ -25,20 +25,20 @@ export const PROJECTS = [
     projectLink: "https://grocery-website-mu.vercel.app/",
   },
   {
-    title: "Portfolio Website",
+    title: "Blog website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    projectLink: "https://react-portfolio-beta-three.vercel.app/",
+      "We believe in the power of storytelling, ideas, and sharing knowledge. This blog is a space where creativity meets information—offering insights, tutorials, personal experiences, and thought-provoking articles across a variety of topics.",
+    technologies: ["HTML", "CSS", "Next.js", "Tailwind"],
+    projectLink: "https://next-blog-app-rouge-seven.vercel.app/",
   },
   {
-    title: "News App",
+    title: "URL Shortner",
     image: project4,
     description:
-      "The News App is a dynamic and responsive web application built using React.js and CSS. It provides users with up-to-date news articles from various sources, presenting the latest headlines in a clean and user-friendly interface. Leveraging the power of React.js for efficient rendering and state management, combined with CSS for an attractive layout and design, the app ensures a seamless and engaging user experience.",
+      "This project is a URL Shortener web application built using Node.js, Express.js, and MongoDB. It allows users to convert long URLs into short, easily shareable links, and redirect back to the original URL when accessed. Think of it like your own version of Bitly or TinyURL!",
     technologies: ["React.js", "Rest API", "CSS"],
-    projectLink: "https://github.com/rahul-kumar-09/News-Website",
+    projectLink: "https://github.com/rahul-kumar-09/URL_Shortener",
   },
 ];
 
